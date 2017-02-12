@@ -8,7 +8,7 @@ server.route({
     method: "GET",
     path: "/",
     handler: (request: hapi.Request, reply: hapi.IReply) => {
-        reply("Hello World12")
+        reply("Welcome Docker Container")
     }
 });
 
